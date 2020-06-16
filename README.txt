@@ -58,7 +58,7 @@ Dependencies:
             Contains data on every song sung.
             
             
-    ###Test writing
+    ###Testing writing
     
         test.py:
             Tests all other modules using unittest.
