@@ -1,5 +1,3 @@
-Update 2
-
 Created in: July 2019
 
 Last Updated: 3/20/20
