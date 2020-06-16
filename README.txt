@@ -11,55 +11,25 @@ Original Version of interface. Given basic functionality, some bugs remain. Was 
     
     Song data is stored in a json file, and will be retrieved and edited upon each running of the main.py file. 
     
-
-Dependencies:
-    json
-    datetime
     
     
 ###Workflow
-
-    ###Basics
-
-        main.py: ##################################### COMPLETE
-            Imports classes, high-level level view functioning of the program from different files.
-            
-        loader.py: #################################COMPLETE
-            Loads data from json
-            
-        exporter.py:
-            Exports data to json
-            
-        dictionaries.py: #############################COMPLETE
-            Holds dictionaries of parameters.
+    
+    Singers.py:
         
-    ###Classes
-    
-        ui_class.py:
-            Contains UI class. Controls user interaction.
-            
-        record_class.py: ################################ WIP
-            Contains Record class. Controls editing of songs.
-            
-        song_class.py:  ############### COMPLETE
-            Contains Song class. Stores data for a single song and its methods.
-    
-    ###Method specialization
-    
-        markup.py:############### WIP
-            Contains methods for marking up text to be more visually appealing.
-            
-        date_compute.py: ############### WIP
-            Contains methods to convert dates and do computations on them.
+        Classes:
+        the Song class, which represents songs sung, 
+        the Record class, which represents the interface itself, 
+        the Date class, which represents dates differently.
         
-    ###Data storage
-    
-        saved_songs.json: #########################COMPLETE
-            Contains data on every song sung.
-            
-            
-    ###Testtest writing
-    
-        test.py:
-            Tests all other modules using unittest.
+        Permanent data:
+        the dictionaries containing parameters for leveling up and how to represent data, 
+        the interactive element which allows the user to use the program easily.
         
+        Editable data:
+        the data imported from songs2.json
+    
+    
+    songs2.json:
+    
+        Stores every single song with its many parameters.
